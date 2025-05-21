@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+#container{
+    align-items: center;
+    text-align: center;
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#cadastro1{
+    width: 30em;
+    height: 2em;
+    border-radius: 20px;
+}
+
+#cadastro2{
+    width: 30em;
+    height: 2em;
+    border-radius: 20px;
+}
+
+#cadastro1::placeholder,
+#cadastro2::placeholder{
+    text-align: center;
+    font-weight: bold;
+}
+
+#Login{
+    height: 2em;
+    width: 20em;
+    border-radius: 20px;
+    background-color: rgb(150, 206, 249);
+    font-weight: bold;
+}
+
+#Texto1{
+    
+}
