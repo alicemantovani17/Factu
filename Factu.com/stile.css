@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    margin-bottom: -2em;
 }
 
 #container{
@@ -35,8 +36,50 @@ h1 {
     border-radius: 20px;
     background-color: rgb(150, 206, 249);
     font-weight: bold;
+    cursor: pointer;
 }
 
 #Texto1{
-    
+    font-size: 20px;
+}
+
+#botao1{
+    border: solid black;
+    width: 20em;
+    border-radius: 20px;
+    height: 2em;
+    background-color:rgb(34, 97, 206);
+    color: white;
+    cursor: pointer;
+}
+
+#botao2{
+    border: solid black;
+    width: 20em;
+    border-radius: 20px;
+    height: 2em;
+    cursor: pointer;
+    margin-top: -6em;
+    background-color: white;
+}
+
+#facebook{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    left: 6.5em;
+   bottom: 4em;
+}
+
+#Google{
+    position: relative;
+    border-radius: 20px;
+    left: 6.5em;
+   bottom: 4em;
+}
+
+#Cartao{
+    border: solid black;
+    width: 50%;
+    margin-left: 20em;
 }
