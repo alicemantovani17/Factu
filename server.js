@@ -18,7 +18,7 @@ passport.deserializeUser((user, done) => done(null, user));
 passport.use(new GoogleStrategy({
     clientID: "676591413692-n1ed6aofnp6d40rts0gqchktcdl70q1l.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "https://testeapigoogle.onrender.com/auth/google/callback"
+    callbackURL: "https://factu.onrender.com/auth/google/callback"
   },
   async (accessToken, refreshToken, profile, done) => {
     const userData = {
@@ -44,7 +44,7 @@ app.get("/auth/google", passport.authenticate("google", {
 app.get("/auth/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
-   res.redirect("/api.html");
+   res.redirect("/factu.html");
   }
 );
 
