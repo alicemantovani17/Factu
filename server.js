@@ -55,7 +55,7 @@ app.get("/auth/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
     console.log("✅ Usuário autenticado com sucesso, redirecionando para Pagina Inicial");
-    res.redirect("factu.html");
+    res.redirect("/factu.html");
   }
 );
 

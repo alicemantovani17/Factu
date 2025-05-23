@@ -39,6 +39,10 @@ h1 {
     cursor: pointer;
 }
 
+#Login:hover{
+    background-color: rgb(82, 174, 244);
+}
+
 #Texto1{
     font-size: 20px;
 }
@@ -53,6 +57,10 @@ h1 {
     cursor: pointer;
 }
 
+#botao1:hover{
+    background-color: rgb(95, 147, 235);
+}
+
 #botao2{
     border: solid black;
     width: 20em;
@@ -61,6 +69,10 @@ h1 {
     cursor: pointer;
     margin-top: -6em;
     background-color: white;
+}
+
+#botao2:hover{
+    background-color: rgb(221, 218, 218);
 }
 
 #facebook{
