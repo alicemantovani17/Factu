@@ -10,7 +10,7 @@ const app = express();
 app.use(session({ secret: "secreto", resave: false, saveUninitialized: true }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(express.static("./"));
+app.use(express.static("public"));
 
 // Salva o usuário na sessão
 passport.serializeUser((user, done) => done(null, user));
